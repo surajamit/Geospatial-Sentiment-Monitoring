@@ -35,7 +35,6 @@ TEST_SIZE = 0.2
 RF_TREES = 200
 RF_MAX_DEPTH = 20
 
-
 # =====================================================
 # 1. DATA LOADER
 # =====================================================
@@ -48,7 +47,6 @@ def load_dataset(csv_path):
     df = pd.read_csv(csv_path)
     df = df.dropna(subset=["text", "label"])
     return df
-
 
 # =====================================================
 # 2. FEATURE ENGINEERING
@@ -64,7 +62,6 @@ def vectorize_text(train_texts, test_texts):
     X_test = vectorizer.transform(test_texts)
 
     return X_train, X_test, vectorizer
-
 
 # =====================================================
 # 3. MODEL TRAINER
@@ -87,7 +84,6 @@ def train_and_evaluate(model, X_train, X_test, y_train, y_test, model_name):
     }
 
     return metrics
-
 
 # =====================================================
 # 4. BASELINE RUNNER
@@ -141,7 +137,6 @@ def run_baseline_pipeline(csv_path):
 
     return results_df
 
-
 # =====================================================
 # 5. VISUALIZATION
 # =====================================================
@@ -184,7 +179,6 @@ def generate_plots(results_df):
     plt.close()
 
     print("Plots generated.")
-
 
 # =====================================================
 # 6. MAIN
