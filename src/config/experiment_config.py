@@ -2,7 +2,7 @@
 Experiment Configuration Logger
 ==============================
 
-Records environment details for reproducibility.
+Records environment details.
 
 Captures:
 - Spark version
