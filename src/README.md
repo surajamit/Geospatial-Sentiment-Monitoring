@@ -53,32 +53,6 @@ The pipeline enables near real-time monitoring of emerging technology discussion
 
 ---
 
-## Twitter API Configuration
-
-Create environment variables:
-
-```bash
-export TWITTER_API_KEY=xxxx
-export TWITTER_API_SECRET=xxxx
-export TWITTER_ACCESS_TOKEN=xxxx
-export TWITTER_ACCESS_SECRET=xxxx
-
-How to Run
-Step 1 — Install dependencies
-pip install -r requirements.txt
-
-Step 2 — Start Flume agent
-flume-ng agent \
-  -n TwitterAgent \
-  -f deployment/flume.conf
-
-Step 3 — Submit Spark job
-bash deployment/spark_submit.sh
-
-Step 4 — Run main notebook
-
-Open: main.ipynb
-
 Methodology Summary
 Micro-batch Formation
 
@@ -163,4 +137,33 @@ If you use this work, please cite:
   author={Amit Pimpalkar},
   journal={Under Review},
   year={2026}
+  
+  
+## Twitter API Configuration
+
+Create environment variables:
+
+```bash
+export TWITTER_API_KEY=xxxx
+export TWITTER_API_SECRET=xxxx
+export TWITTER_ACCESS_TOKEN=xxxx
+export TWITTER_ACCESS_SECRET=xxxx
+
+How to Run
+Step 1 — Install dependencies
+pip install -r requirements.txt
+
+Step 2 — Start Flume agent
+flume-ng agent \
+  -n TwitterAgent \
+  -f deployment/flume.conf
+
+Step 3 — Submit Spark job
+bash deployment/spark_submit.sh
+
+Step 4 — Run main notebook
+
+Open: main.ipynb
+
+
 }
