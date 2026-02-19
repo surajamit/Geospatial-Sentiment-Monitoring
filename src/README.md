@@ -137,7 +137,7 @@ If you use this work, please cite:
   author={Amit Pimpalkar},
   journal={Under Review},
   year={2026}
-  
+ } 
   
 ## Twitter API Configuration
 
@@ -163,7 +163,4 @@ bash deployment/spark_submit.sh
 
 Step 4 — Run main notebook
 
-Open: main.ipynb
-
-
-}
+Open: main_pipeline.ipynb
