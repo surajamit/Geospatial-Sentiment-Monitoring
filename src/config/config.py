@@ -25,10 +25,10 @@ import os
 @dataclass(frozen=True)
 class TwitterConfig:
     """Twitter API credentials (xxxxxxxxxxxxxxxxxxxxxxxxxx)."""
-    API_KEY: str = os.getenv("TWITTER_API_KEY", "YOUR_API_KEY")
-    API_SECRET: str = os.getenv("TWITTER_API_SECRET", "YOUR_API_SECRET")
-    ACCESS_TOKEN: str = os.getenv("TWITTER_ACCESS_TOKEN", "YOUR_ACCESS_TOKEN")
-    ACCESS_SECRET: str = os.getenv("TWITTER_ACCESS_SECRET", "YOUR_ACCESS_SECRET")
+    API_KEY: str = os.getenv("TWITTER_API_KEY", "API_KEY")
+    API_SECRET: str = os.getenv("TWITTER_API_SECRET", "API_SECRET")
+    ACCESS_TOKEN: str = os.getenv("TWITTER_ACCESS_TOKEN", "ACCESS_TOKEN")
+    ACCESS_SECRET: str = os.getenv("TWITTER_ACCESS_SECRET", "ACCESS_SECRET")
 
 
 @dataclass(frozen=True)
