@@ -1,9 +1,7 @@
 """
 Parallelism and Scalability Analysis Module
 ==========================================
-
-Provides quantitative proof of Spark parallel execution.
-
+Quantitative proof of Spark parallel execution.
 Mathematical Formulation
 ------------------------
 
@@ -14,7 +12,7 @@ Efficiency:
     E(p) = S(p) / p
 
 Where:
-    p = number of partitions (proxy for parallel workers)
+    p = number of partitions (for parallel workers)
     T(p) = execution time with p partitions
 
 Throughput scaling:
@@ -77,7 +75,7 @@ def benchmark_partitions(
     ----------
     spark : SparkSession
     data_size : int
-        Number of synthetic tweets
+        Number of tweets
     partition_list : list
         Partition configurations
 
