@@ -1,7 +1,6 @@
 """
 Micro-batch Latency Scaling Analysis
 ===================================
-
 Validates cluster scaling.
 
 Observed:
@@ -14,7 +13,7 @@ import pandas as pd
 
 
 def generate_latency_profile():
-    """Return manuscript-aligned latency data."""
+    """Return latency data."""
 
     data = {
         "nodes": [3, 4, 5],
