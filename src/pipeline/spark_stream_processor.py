@@ -1,7 +1,6 @@
 """
 spark_stream_processor.py
 High-performance Spark Streaming pipeline.
-
 Parallelism mechanism:
     - RDD partitioning
     - Distributed map transformations
@@ -31,12 +30,11 @@ def process_rdd(rdd):
     processed = rdd.map(lambda x: preprocess_record(x))
     print(f"Processed partitions: {processed.getNumPartitions()}")
 
-
 def start_streaming(socket_host="localhost", socket_port=9999):
     """
     Start Spark Streaming context.
 
-    Micro-batch = 5 seconds (as in manuscript).
+    Micro-batch = 5 seconds.
     """
     cfg = SparkConfig()
 
