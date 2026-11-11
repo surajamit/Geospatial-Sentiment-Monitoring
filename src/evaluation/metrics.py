@@ -23,7 +23,6 @@ def evaluate_model(model, X_test, y_test) -> dict:
         "cm": confusion_matrix(y_test, y_pred),
     }
 
-
 def compute_metrics(y_true, y_pred):
     """Return full metric dictionary."""
 
