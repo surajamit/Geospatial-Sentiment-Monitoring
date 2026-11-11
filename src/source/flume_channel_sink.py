@@ -1,7 +1,6 @@
 """
 flume_channel_sink.py
 ---------------------
-
 Implements the conceptual Flume flow:
 
 Source → Channel → Sink
@@ -37,7 +36,7 @@ class MemoryChannel:
 
 class HDFSSink:
     """
-    Simulated Flume sink writing to HDFS.
+    Flume sink writing to HDFS.
 
     In production this maps to:
     Hadoop fs -put
