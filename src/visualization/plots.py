@@ -8,7 +8,6 @@ Visualization Suite For:
 - Latency vs Accuracy
 - Resource utilization
 - Parallel efficiency & speedup
-
 """
 import numpy as np
 import pandas as pd
@@ -30,7 +29,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # =========================
-# GLOBAL STYLE (publication)
+# GLOBAL STYLE 
 # =========================
 plt.rcParams.update({
     "font.size": 11,
