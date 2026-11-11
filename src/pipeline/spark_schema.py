@@ -9,7 +9,6 @@ from pyspark.sql.types import (
     StringType, DoubleType, LongType
 )
 
-
 def get_twitter_schema() -> StructType:
     """Full tweet + user schema."""
 
