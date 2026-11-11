@@ -6,7 +6,6 @@ Selects the five key attributes.
 
 from pyspark.sql import DataFrame
 
-
 SELECTED_FIELDS = [
     "text",
     "city",
@@ -14,7 +13,6 @@ SELECTED_FIELDS = [
     "latitude",
     "longitude",
 ]
-
 
 def select_core_features(df: DataFrame) -> DataFrame:
     """
