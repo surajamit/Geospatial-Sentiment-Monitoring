@@ -1,7 +1,6 @@
 """
 Experiment Configuration Logger
 ==============================
-
 Records environment details.
 
 Captures:
