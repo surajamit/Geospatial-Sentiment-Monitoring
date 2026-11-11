@@ -12,7 +12,6 @@ TECH_MAP = {
     "python": 4,
 }
 
-
 def map_technology(text: str) -> int:
     """
     Detect dominant technology keyword.
