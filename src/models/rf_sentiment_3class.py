@@ -39,9 +39,9 @@ def evaluate_rf(model, X_test, y_test):
     )
 
     return {
-        "f1_score": round(f, 3),
-        "precision": round(p, 3),
-        "recall": round(r, 3),
+        "f1_score": round(f, 2),
+        "precision": round(p, 2),
+        "recall": round(r, 2),
         "confusion_matrix": confusion_matrix(y_test, y_pred),
         "y_pred": y_pred,
     }
