@@ -1,7 +1,6 @@
 """
 model Validation Module-2
 
-Adds:
 - McNemar significance test
 - Bootstrap confidence intervals
 - Spark MLlib RF comparison
