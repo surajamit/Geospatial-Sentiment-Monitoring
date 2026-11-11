@@ -2,7 +2,7 @@
 classifier.py
 -------------
 
-Random Forest classifier (Proposed Model).
+Random Forest classifier (Proposed).
 
 parameters:
 - 200 trees
