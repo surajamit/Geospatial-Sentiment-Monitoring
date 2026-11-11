@@ -1,13 +1,12 @@
 """
 twitter_stream.py
 -----------------
-
 Implements real-time Twitter streaming.
 
 Design goals:
 - Resilient ingestion
 - 1500 tweets/sec capability
-- Compatible with Apache Flume
+- Apache Flume
 
 Uses Tweepy v4 streaming interface.
 """
@@ -53,7 +52,7 @@ def start_stream(track_terms: List[str], flume_sink):
     Parameters
     ----------
     track_terms : List[str]
-        Keywords to track (AI, ML, Hadoop, etc.)
+        Keywords to track (AI, ML, CC, Python, Hadoop)
     flume_sink : object
         Flume sink client
     """
