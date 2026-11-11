@@ -189,4 +189,4 @@ if __name__ == "__main__":
     results_df = run_baseline_pipeline(DATA_PATH)
     generate_plots(results_df)
 
-    print("\n Full baseline evaluation completed.")
+    print("\n Full baseline evaluation.")
