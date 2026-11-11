@@ -1,7 +1,6 @@
 """
 microbatch_manager.py
 ---------------------
-
 Implements formal micro-batch tracking B_k.
 Provides throughput and latency instrumentation.
 """
