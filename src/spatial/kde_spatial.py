@@ -1,7 +1,6 @@
 """
 KDE Spatial Density Estimator
 =============================
-
 Implements non-parametric spatial intensity estimation.
 
 Mathematical Formulation
@@ -14,7 +13,7 @@ where:
     h = bandwidth
     K = Gaussian kernel
 
-Used to generate smooth technology heatmaps.
+Used to plot smooth technology heatmaps.
 """
 
 import numpy as np
