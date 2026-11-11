@@ -1,9 +1,7 @@
 """
 Micro-Batch Streaming Engine
 =============================
-
 Implements the formal streaming model.
-
 Mathematical Model
 ------------------
 Incoming Twitter stream:
@@ -24,7 +22,7 @@ Processing latency:
 
 This module provides reusable utilities for monitoring real-time Spark Streaming performance.
 
-Compatible with Spark 3.x Structured Streaming.
+Spark Structured Streaming.
 """
 
 import time
