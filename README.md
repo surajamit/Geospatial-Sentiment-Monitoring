@@ -37,11 +37,11 @@ The pipeline enables near real-time monitoring of emerging technology discussion
 ### Cluster Setup
 
 | Component | Version |
-|----------|---------|
-| Apache Spark | 3.x |
-| Apache Flume | 1.11 |
-| Hadoop HDFS | 3.x |
-| Python | 3.9 |
+|-----------|------------|
+| Apache Spark | 3.2.1  |
+| Apache Flume | 1.11.0 |
+| Hadoop HDFS | 3.3.1 |
+| Python | 3.9.7 |
 | scikit-learn | ≥1.3 |
 | Google Colab RAM | 32 GB |
 
@@ -49,7 +49,8 @@ The pipeline enables near real-time monitoring of emerging technology discussion
 
 - 5-node Spark cluster  
 - 32 total cores  
-- 128 GB aggregate memory  
+- 128 GB aggregate memory
+- Windows + WSL2 Ubuntu 24.04
 
 ---
 
@@ -82,10 +83,13 @@ T ≈ 1,500 tweets/sec
 
 Random Forest Configuration
 Parameter	Value
-Trees	200
-Max depth	20
-Classes	3
-Training size	5,000 labeled tweets
+Trees	200,
+Max depth	20,
+min_samples_split = 5, 
+min_samples_leaf = 2, 
+max_features = sqrt ,
+Classes	3,
+Dataset size 5,000 labeled tweets (80:20) 
 
 Experimental Results
 1. Performance
