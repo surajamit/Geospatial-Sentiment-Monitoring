@@ -1,10 +1,7 @@
 """
 heatmap.py
 ----------
-
-Kernel Density Estimation spatial visualization.
-
-Generates heatmaps for:
+Kernel Density Estimation spatial visualization heatmaps for:
 - AI
 - ML
 - Python
