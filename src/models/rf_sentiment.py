@@ -6,7 +6,7 @@ Implements the proposed model:
 
 - n_estimators = 200
 - max_depth = 20
-- evaluated on manually labeled tweets
+- evaluated on 5000 manually labeled tweets (80:20)
 
 """
 
@@ -41,8 +41,8 @@ def evaluate_model(model, X_test, y_test):
     )
 
     return {
-        "accuracy": round(acc, 3),
-        "precision": round(p, 3),
-        "recall": round(r, 3),
-        "f1_score": round(f, 3),
+        "accuracy": round(acc, 2),
+        "precision": round(p, 2),
+        "recall": round(r, 2),
+        "f1_score": round(f, 2),
     }
