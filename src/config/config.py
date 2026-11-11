@@ -1,7 +1,5 @@
 """
 Author: Amit Pimpalkar
-Python: 3.9
-Spark: 3.x
 """
 
 """
