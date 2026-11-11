@@ -10,7 +10,7 @@ Steps:
 4. Lemmatization
 5. Abbreviation normalization
 
-Compatible with Spark UDF usage.
+Spark UDF usage.
 """
 
 import re
@@ -34,7 +34,6 @@ ABBREVIATIONS = {
     "ml": "machine_learning",
     "cc": "cloud_computing"
 }
-
 
 def normalize_abbreviations(token: str) -> str:
     """Replace known abbreviations."""
