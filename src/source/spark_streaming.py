@@ -1,7 +1,6 @@
 """
 spark_streaming.py
 ------------------
-
 Implements Spark Streaming using RDD transformations
 
 Pipeline:
@@ -17,7 +16,6 @@ from .preprocessing import preprocess_tweet
 from .classifier import load_rf_model
 
 logger = logging.getLogger(__name__)
-
 
 def create_streaming_context():
     """Create Spark Streaming context."""
