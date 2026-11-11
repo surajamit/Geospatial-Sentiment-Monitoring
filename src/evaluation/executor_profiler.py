@@ -1,7 +1,6 @@
 """
 Executor-Level Resource Profiler
 ================================
-
 Provides runtime monitoring of Spark executor CPU and memory usage.
 
 Metrics captured
