@@ -10,7 +10,6 @@ Throughput formula:
 
 import time
 
-
 class FlumeRateMonitor:
 
     def __init__(self, window_sec: int = 10):
