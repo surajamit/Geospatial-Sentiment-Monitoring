@@ -1,14 +1,11 @@
 """
 Validation pipeline
 
-Adds:
 - Stratified k-fold CV
 - Statistical significance tests
 - ROC-AUC curves
 - Confidence intervals
 - Robust reproducibility
-
-Compatible with:
 - Google Colab
 - Spark-preprocessed CSV
 """
@@ -225,4 +222,4 @@ if __name__ == "__main__":
 
     plot_cv_results(summary_df)
 
-    print("\n Advanced validation completed.")
+    print("\n Validation completed.")
