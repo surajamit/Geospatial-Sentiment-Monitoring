@@ -1,7 +1,6 @@
 """
 Micro-Batch Latency Profiler
 ===========================
-
 Measures Spark processing latency per batch.
 
 Latency:
@@ -9,7 +8,6 @@ Latency:
 """
 
 import time
-
 
 class MicroBatchProfiler:
 
