@@ -2,9 +2,12 @@
 train_rf.py
 Random Forest sentiment classifier.
 
-Manuscript parameters:
-    trees = 200
-    depth = 20
+Parameters:
+    trees = 200,
+    depth = 20,
+    min_samples_split = 5, 
+    min_samples_leaf = 2, 
+    max_features = sqrt 
 """
 
 import pandas as pd
@@ -22,6 +25,9 @@ def build_model(cfg: RFConfig) -> Pipeline:
             n_estimators=cfg.n_estimators,
             max_depth=cfg.max_depth,
             random_state=cfg.random_state,
+            min_samples_split = 5, 
+            min_samples_leaf = 2, 
+            max_features = sqrt, 
             n_jobs=-1
         ))
     ])
