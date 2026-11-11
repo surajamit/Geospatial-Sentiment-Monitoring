@@ -1,7 +1,6 @@
 """
 hdfs_writer.py
 --------------
-
 Handles distributed storage.
 
 Features:
