@@ -1,7 +1,6 @@
 """
 hbase_store.py
 --------------
-
 Stores classified tweets into HBase for fast lookup.
 
 Why HBase:
